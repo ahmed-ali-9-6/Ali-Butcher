@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="img/favlogo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Ali Butcher</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/logo.png" alt="Ali Logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="nav-link" href="#trader"> Traders </a></li>
+          <li><a class="nav-link" href="#price"> Pricing </a></li>
+          <li>
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://maps.app.goo.gl/H9oJrZpGobK2C1gz9"
+            >
+              Location
+            </a>
+          </li>
+          <li>
+            <a class="nav-link nav-btn" href="#contact"> ! تواصل معنا </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero grid grid--2-cols">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              أجود أنواع اللحوم <span>البلدي</span>
+            </h1>
+            <p class="hero-description">
+              لحم بقري بلدي فريش بطعمه المميز ,وليس إنتاج مزارع, تمت تغذيته
+              بعلفة بلدية طبيعية
+            </p>
+            <a class="nav-link hero-btn" href="#contact"> أعرف أكثر ↓</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              class="hero-img"
+              src="img/hero-img-min.png"
+              alt="لحم نيئ ولحم مشوي"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="trader-section" id="trader">
+        <div class="container">
+          <div class="trader-title">
+            <h2 class="heading-scondary">الأسواق</h2>
+            <p class="trader-description">الاسواق المتعامل معها</p>
+          </div>
+          <div class="trader-box">
+            <div class="trader"><p>المنوفية</p></div>
+            <div class="trader"><p>المناشي</p></div>
+            <div class="trader"><p>بهتيم</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="warning-section">
+        <div class="warning container">
+          <img class="warning-img" src="img/warning-img.png" alt="warning" />
+          <div class="warning-text-box">
+            <h3 class="warning-heading">!تحذير</h3>
+            <p class="warning-text">
+              .يرجى التأكد من دبحها داخل المدبح عن طريق الختم الأحمر
+            </p>
+            <p class="warning-text">
+              :والتأكد من كونها كبيرة أم صغيرة من التالي
+            </p>
+            <p class="warning-text warning-bottom-text">
+              ختم الكبيرة مربع الشكل ولون الدهون أصفر-
+            </p>
+            <p class="warning-text warning-bottom-text">
+              ختم الصغيرة دائري الشكل ولون الدهون أبيض-
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section" id="price">
+        <div class="container">
+          <div class="pricing-title">
+            <h2 class="heading-scondary">الأسعار</h2>
+            <p class="pricing-description">الاسعار حسب السوق</p>
+          </div>
+          <div class="pricing grid grid--2-cols">
+            <div class="pricing-box pricing-box-back">
+              <img class="pricing-img" src="img/old.jpg" alt="meat" />
+              <p class="kind-old">كبير</p>
+              <div class="pricing-text-box">
+                <p class="price">260 <span>EG</span></p>
+
+                <ul class="pricing-list">
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>وقت أطول</span>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>بعض الأجزاء</span>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="close-outline"
+                    ></ion-icon>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>منخفض التكلفة</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="pricing-box">
+              <img class="pricing-img" src="img/young.jpg" alt="meat" />
+              <p class="kind-young">كندوز صغير</p>
+
+              <div class="pricing-text-box">
+                <p class="price">310 <span>EG</span></p>
+
+                <ul class="pricing-list">
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>تطهى في وقت أقل</span>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>لينة سهلة الأكل</span>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>تصلح للشوي</span>
+                  </li>
+                  <li class="pricing-item">
+                    <ion-icon
+                      class="pricing-icon"
+                      name="close-outline"
+                    ></ion-icon>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact-title">
+            <h2 class="heading-scondary">تواصل معنا</h2>
+            <p class="contact-description">لمعرفة أماكن تواجدنا</p>
+          </div>
+          <div class="contact">
+            <p class="address">شارع ترعة السواحل -سقيل -مركز أوسيم</p>
+            <p class="phone-num">011-5527-9148</p>
+            <div class="contact-icons">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100049541958594"
+                ><ion-icon class="contact-icon" name="logo-facebook"></ion-icon
+              ></a>
+              <a
+                target="_blank"
+                href=" https://maps.app.goo.gl/H9oJrZpGobK2C1gz9"
+                ><ion-icon
+                  class="contact-icon"
+                  name="location-outline"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">
+        &COPY; 2023<span> Ali Butcher </span>All Right Reserved
+      </p>
+    </footer>
+  </body>
+</html>
